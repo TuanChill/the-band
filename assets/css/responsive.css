@@ -1,0 +1,89 @@
+/* pc */
+@media (min-width: 64em) {
+    #header .ti-menu {
+        display: none ;
+    }
+}
+
+/* tablet & mobile */
+@media (max-width: 63.9375em) {
+    .form-control {
+        padding: 11px !important;
+    }
+
+    .infor-contact {
+        line-height: 2;
+        margin-top: 28px;
+    }
+
+    .form-input {
+        margin-top: 32px !important;
+    }
+
+    .social-list i,
+    .copyright {
+        padding: 0 8px;
+        font-size: 25px;
+    }
+
+    .copyright {
+        margin-top: 32px !important;
+    }
+
+    .copyright a {
+        padding:0 8px;
+        display: inline-block;
+    }
+}
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header .ti-menu {
+        display: none ;
+    }
+}
+
+/* moblie */
+@media (max-width: 46.1875em) {
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    
+    #nav > li {
+        display: block;
+        position: relative;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    
+    .s-col-full {
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .place-ticket {
+        width: 100%;
+        text-align: center;
+    }
+
+    .send-btn {
+        width: 100%;
+    }
+}
